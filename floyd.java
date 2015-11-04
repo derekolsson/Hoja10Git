@@ -1,3 +1,4 @@
+//http://www.cs.ucf.edu/~dmarino/ucf/java/floyd.java
 
 import java.util.*;
 
@@ -51,6 +52,34 @@ public class floyd {
       		return b;
   	}
 
+	/***************************************************
+	//Metodo de getCenter
+	public WHATEVER getCenter( , ){
+		type shortpaths[][]= shortestpath( , );
+		int eccentricity[shortpaths.length];
+		for (c = 0, c < shortpaths.length, c ++){
+			eccentricity[c]=shortpaths[c][0];
+		}
+		for (i=0, i < shortpaths.length, i++){
+			for (j = 1, j < shortpaths[i].length, j++){
+				if (shortpaths[i][j] > eccentricity[i]){
+					eccentricity[i]=shortpaths[i][j];
+				}
+			}
+		}
+		int centerIndex = 0; 
+		int centerWeight = eccentricity[0];
+		for (k=1, k < eccentricity.length, k++){
+			if (eccentricity[k] < centerWeight){
+				centerIndex = k;
+			}
+		}
+		return THING[centerIndex];
+	}
+	*****************************************************/
+	
+	
+	
   	public static void main(String[] args) {
 
 		Scanner stdin = new Scanner(System.in);
